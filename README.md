@@ -23,7 +23,7 @@ sudo chown -R $USER:$USER test_task
 #### 3. Перейдите в каталог test_dev
 
 ```code
-cd test_dev
+cd test_task
 ```
 
 #### 4. Запускаем bash script
