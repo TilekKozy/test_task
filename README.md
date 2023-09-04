@@ -11,13 +11,13 @@
 #### 1. Клонируем проект
 
 ```code
-git clone git@github.com:TilekKozy/test_dev.git
+git clone git@github.com:TilekKozy/test_task.git
 ```
 
 #### 2. Установите в каталоге проекта такой уровень разрешений, чтобы ее владельцем был пользователь без привилегий root
 
 ```code
-sudo chown -R $USER:$USER test_dev
+sudo chown -R $USER:$USER test_task
 ```
 
 #### 3. Перейдите в каталог test_dev
@@ -26,15 +26,17 @@ sudo chown -R $USER:$USER test_dev
 cd test_dev
 ```
 
-#### 4. Копируем env.example и создаем .env
+#### 4. Запускаем bash script
 
 ```code
-docker run --rm -v $(pwd):/app composer install
+sh build.sh
 ```
 
-#### 5. Копируем docker-lamp в директорию проекта
+#### 5. Переходим по ссылке 
 
 ```code
-git clone git@github.com:TilekKozy/docker-lamp.git
+http://localhost/posts
 ```
+
+
 
